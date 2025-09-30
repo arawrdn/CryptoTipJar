@@ -29,3 +29,22 @@ A simple “tip jar” dApp that allows content creators to receive crypto tips 
 ```bash
 git clone https://github.com/arawrdn/cryptotipjar.git
 cd cryptotipjar
+
+2. Install dependencies:
+npm install
+
+3. Start the development server:
+npm start
+
+4. Open http://localhost:3000
+ in your browser
+
+Usage
+
+1. Click Connect Wallet to connect your wallet via WalletConnect.
+
+2. Enter the tip amount and select the token.
+
+3. Click Send Tip to send crypto to the creator.
+
+4. The transaction status will be tracked (pending, confirmed, failed).
